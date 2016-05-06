@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
+# icon font for pretty much everything
+gem 'font-awesome-rails'
 # bootstrap, ya know for style
 gem 'bootstrap-sass'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
