@@ -1,6 +1,8 @@
 # rails-drywall
 Aims to be the functional equivalent of this but for ruby https://github.com/jedireza/drywall
 
+[![Travis CI](https://travis-ci.org/njd5475/rails-drywall.svg?branch=master)]
+
 ## Philosophy
 
  - Create a website and user system.
