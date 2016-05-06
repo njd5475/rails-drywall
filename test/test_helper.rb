@@ -1,3 +1,6 @@
+#in order for testing to be useful you need to know your coverage
+require 'simplecov'
+SimpleCov.start
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../../config/environment', __FILE__)
 require 'rails/test_help'

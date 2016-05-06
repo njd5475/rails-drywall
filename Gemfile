@@ -37,6 +37,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  # for coverage details
+  gem 'simplecov'
+  # you know for prying into things you shouldn't
+  gem 'pry' # call `binding.pry` at any line of code for an interactive terminal
+  # for debugging purposes no need for a debugger
+  gem 'pry-stack_explorer'
 end
 
 group :development do
@@ -46,4 +52,3 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
