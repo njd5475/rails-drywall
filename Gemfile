@@ -21,8 +21,7 @@ gem 'sass-rails', '~> 5.0'
 # for Jquery support
 gem 'jquery-rails', '~> 4.3.5'
 
-# for coffee script should go away
-gem 'coffee-rails'
+gem 'react-rails'
 
 gem 'haml'
 

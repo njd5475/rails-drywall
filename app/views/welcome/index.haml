@@ -5,8 +5,6 @@
       %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
         %span.sr-only Toggle navigation
         %span.icon-bar
-        %span.icon-bar
-        %span.icon-bar
       %a.navbar-brand{href: "#"} Rails-Drywall
     / Collect the nav links, forms, and other content for toggling
     #bs-example-navbar-collapse-1.collapse.navbar-collapse
@@ -26,9 +24,7 @@
   / /.container-fluid
 .page-header
   .container
-    %h1
-      Success
-      %small Made with an automated build deploy process.
+    = react_component 'SuccessMessage', {}, {prerender: true}
 %footer
   .container
     %ul.list-inline
