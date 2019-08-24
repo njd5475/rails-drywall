@@ -1,0 +1,36 @@
+%nav.navbar.navbar-default
+  .container
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle.collapsed{"aria-expanded" => "false", "data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", type: "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.navbar-brand{href: "#"} Rails-Drywall
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav
+        %li.active
+          = link_to "Home", root_path
+          %span.sr-only (current)
+        %li= link_to "About", about_path
+        %li= link_to "Sign Up", sign_up_path
+        %li= link_to "Contact", contact_path
+      %ul.nav.navbar-nav.navbar-right
+        %li
+          = link_to sign_in_path do
+            = fa_icon("user")
+            Sign In
+    / /.navbar-collapse
+  / /.container-fluid
+.page-header
+  .container
+    %h1
+      Success
+      %small Made with an automated build deploy process.
+%footer
+  .container
+    %ul.list-inline
+      %li= link_to "Home", root_path
+      %li= link_to "Contact", contact_path
