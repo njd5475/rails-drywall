@@ -14,6 +14,48 @@
  *= require_self
  */
 
+// Your variable overrides
+$body-bg: #000;
+$body-color: #111;
+
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+  "custom-color": #900,
+);
+// Changing the theme colors
+$primary: #3ec89d;
+$secondary: #3ab7ff;
+$success: #65ff9f;
+$info: #7164ff;
+$warning: #ff9f65;
+$danger: #ff457b;
+$light: #f2d4ff;
+$dark: #18181d;
+
+$blue: #4da6ff;
+
+$indigo: #4b5bab;
+$purple: #57294b;
+$pink: #ff6b97;
+$red: #b0305c;
+$orange: #f2a65e;
+$yellow: #ffe478;
+$green: #8fde5d;
+$teal: #3ca370;
+$cyan: #66ffe3;
+$white: #ffffeb;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #c2c2d1;
+$gray-600: #7e7e8f;
+$gray-700: #606070;
+$gray-800: #43434f;
+$gray-900: #212529;
+$black: #272736;
+
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
