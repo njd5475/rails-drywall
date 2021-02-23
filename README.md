@@ -23,3 +23,4 @@ Aims to be the functional equivalent of this but for ruby https://github.com/jed
  - TODO: Admin groups with shared permission settings.
  - TODO: Administrator level permissions that override group permissions.
  - TODO: Global admin quick search component.
+ - [ ] Update to latest tools
