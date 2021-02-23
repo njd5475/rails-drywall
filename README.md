@@ -24,3 +24,4 @@ Aims to be the functional equivalent of this but for ruby https://github.com/jed
  - TODO: Administrator level permissions that override group permissions.
  - TODO: Global admin quick search component.
  - [ ] Update to latest tools
+ - [ ] Fix travis ci
