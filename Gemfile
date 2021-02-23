@@ -34,8 +34,10 @@ group :development, :test do
   # for debugging purposes no need for a debugger
   gem 'pry-stack_explorer'
 
+  gem 'listen'
+end
+
+group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 4.0.1'
-
-  gem 'listen'
 end
