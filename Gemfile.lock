@@ -63,7 +63,7 @@ GEM
       babel-source (>= 4.0, < 6)
       execjs (~> 2.0)
     bindex (0.8.1)
-    binding_of_caller (1.0.0)
+    binding_of_caller (0.8.0)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -104,18 +104,16 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
-    mini_portile2 (2.5.0)
     minitest (5.14.3)
     nio4r (2.5.5)
-    nokogiri (1.11.1)
-      mini_portile2 (~> 2.5.0)
+    nokogiri (1.11.1-x86_64-linux)
       racc (~> 1.4)
     pg (1.2.3)
     pry (0.14.0)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    pry-stack_explorer (0.6.1)
-      binding_of_caller (~> 1.0)
+    pry-stack_explorer (0.4.13)
+      binding_of_caller (~> 0.7)
       pry (~> 0.13)
     racc (1.5.2)
     rack (2.2.3)
@@ -195,7 +193,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   bootstrap-sass
@@ -214,4 +212,4 @@ DEPENDENCIES
   web-console (~> 4.0.1)
 
 BUNDLED WITH
-   2.2.7
+   2.2.8
